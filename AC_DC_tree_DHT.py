@@ -12,12 +12,7 @@ def AC_DC_tree_DHT(dc_huffman_table,ac_huffman_table):
             for bit in code:
                 if bit == '0':
                     if current_node.left is None:
-<<<<<<< HEAD
-                        
-                        current_node.left = Node()
-=======
                          current_node.left = Node()
->>>>>>> develop
                     current_node = current_node.left
                 else:
                     if current_node.right is None:
